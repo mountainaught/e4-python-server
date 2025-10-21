@@ -1,0 +1,12 @@
+[project]
+name = "e4-python-server"
+version = "0.1.0"
+description = "Empatica E4 Data Acquisition Tool (without Empatica Server)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "asyncio>=4.0.0",
+    "bleak>=1.1.1",
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.3",
+]
